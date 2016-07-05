@@ -24,5 +24,5 @@ var convertTemp = function(temp) {
 };
 convertTemp(-40);
 
-more changes la ala la 
+CHANGES
 
