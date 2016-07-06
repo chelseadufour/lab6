@@ -1,28 +1,28 @@
-var nameString = function (name) {
-	return("I am " + name);
-};
-console.log(nameString("Chelsea"));
 
-var greeting = function (name) {
-	console.log(name);
-}; 
-greeting("Chelsea");
+// var d = prompt("Enter temperature");
+// var u = prompt("Enter temperature unit, C or F");
 
-var foodDemand = function(food) {
-	console.log("I want" + " " + food);
-};
-foodDemand("pizza");
+function convertTemp(degrees, units) {
+	if (units === "F") {
+		return((degrees-32)*5/9);
+	} else {
+		return((degrees*9/5)+32);
+	}
+}
+var units = convertTemp(212, "C");
+// document.write(units + " is the temperature after conversion");
+
+console.log(convertTemp(212, "C"));
+console.log(convertTemp(32, "C"));
+console.log(convertTemp(65, "C"));
+console.log(convertTemp(-40, "F"));
 
 
-var convertTemp = function(temp) {
-	console.log((temp-32)*(5/9) + " Temp in F");
-};
-convertTemp(65);
 
-var convertTemp = function(temp) {
-	console.log((temp*(9/5)+32) + " Temp in C");
-};
-convertTemp(-40);
 
-changes
+
+
+
+
+
 
