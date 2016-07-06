@@ -10,6 +10,7 @@ function convertTemp(degrees, units) {
 	}
 }
 var units = convertTemp(212, "C");
+// var units = converTemp(d, u);
 // document.write(units + " is the temperature after conversion");
 
 console.log(convertTemp(212, "C"));
